@@ -1,0 +1,10 @@
+START firefox
+CALL navigate no
+CALL search no
+CALL download no
+RAISE
+START putty
+CALL play no
+CALL navigate yes
+RAISE
+RETURN
